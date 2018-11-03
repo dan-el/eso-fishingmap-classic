@@ -4,3 +4,5 @@ A simple piece with some HTML, CSS and SVG to create an interactive fishing map 
 Save the code as shortcode for Wordpress or embed it directly into your project.
 
 Set the size using CSS "max-width" and "width" on the class ".map-container". Everything should scale.
+
+#workinprogress
