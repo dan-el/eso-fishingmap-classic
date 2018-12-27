@@ -133,6 +133,12 @@
         <set attributeName="visibility" from="hidden" to="visible" begin="craglorn.mouseover" end="craglorn.mouseout"/>
       </text>
     </a>
+    <a xlink:href="fishing-coldharbour.png" xlink:show="new" xlink:title="Coldharbour">
+      <circle id="coldharbour" class="area coldharbour" cx="242" cy="715" r="84" />
+      <text x="17" y="60" class="dlc" visibility="hidden">Coldharbour
+        <set attributeName="visibility" from="hidden" to="visible" begin="coldharbour.mouseover" end="coldharbour.mouseout"/>
+      </text>
+    </a>
     <a xlink:href="fishing-imperialcity.png" xlink:show="new" xlink:title="Imperial City">
       <polygon id="imperialcity" class="area dlc" points="430,376,454,373,454,386,457,397,449,400,435,393,435,385,430,380" />
       <text x="17" y="60" class="dlc" visibility="hidden">Imperial City
@@ -173,12 +179,6 @@
       <polygon id="murkmire" class="area dlc" points="591,584,605,590,623,590,625,597,620,622,633,634,638,651,624,661,575,641,555,621,554,602,574,597" />
       <text x="17" y="60" class="dlc" visibility="hidden">Murkmire
         <set attributeName="visibility" from="hidden" to="visible" begin="murkmire.mouseover" end="murkmire.mouseout"/>
-      </text>
-    </a>
-    <a xlink:href="fishing-coldharbour.png" xlink:show="new" xlink:title="Coldharbour">
-      <circle id="coldharbour" class="area dlc" cx="242" cy="715" r="84" />
-      <text x="17" y="60" class="dlc" visibility="hidden">Coldharbour
-        <set attributeName="visibility" from="hidden" to="visible" begin="coldharbour.mouseover" end="coldharbour.mouseout"/>
       </text>
     </a>
     <a xlink:href="fishing-clockworkcity.png" xlink:show="new" xlink:title="Clockwork City">
@@ -288,12 +288,15 @@
 }
 
 .map-container polygon.craglorn:hover,
-.map-container circle.craglorn:hover {
+.map-container circle.craglorn:hover,
+.map-container polygon.coldharbour:hover,
+.map-container circle.coldharbour:hover {
   stroke: saddlebrown ;
   fill: rgba(139,69,19,0.5)
 }
 
-.map-container text.craglorn {
+.map-container text.craglorn,
+.map-container text.coldharbour {
   fill: saddlebrown;
   font: italic 55px sans-serif;
 }
