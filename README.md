@@ -5,7 +5,9 @@
 
 Images are not compressed. If you want them smaller use JPG - under 200 KB still looks okay.
 
-Special thanks go to [Votan](https://www.esoui.com/forums/member.php?action=getinfo&userid=13996) for his ESO addon [Votan’s Fisherman](https://www.esoui.com/downloads/info918-VotansFisherman.html) which helped with creating all the maps.
+Special thanks to
+* [Votan](https://www.esoui.com/forums/member.php?action=getinfo&userid=13996) for his ESO addon [Votan’s Fisherman](https://www.esoui.com/downloads/info918-VotansFisherman.html) which helped with creating all the maps.
+* [aykutaydin91](https://www.reddit.com/user/aykutaydin91) and [daveysanderson](https://www.reddit.com/user/daveysanderson) for their feedback on the color palette
 
 You can see the map in action here: https://housetertia.com/fishing-map
 
