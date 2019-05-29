@@ -1,7 +1,6 @@
 # ESO Fishing Map (Classic)
 #### A simple project with some HTML, CSS, and SVG to create a fishing map for ESO.
-* Save the code as shortcode for Wordpress or embed it directly into your website.
-* Set the size using CSS "max-width" and "width" on the class ".map-container". Everything should scale.
+Save the code as shortcode for Wordpress or embed it directly into your website. Then set the size using CSS "max-width" and "width" on the class ".map-container". Everything should scale.
 
 
 #### Special thanks to
