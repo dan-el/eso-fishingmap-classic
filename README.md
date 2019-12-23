@@ -12,7 +12,6 @@ Save the code as shortcode for Wordpress or embed it directly into your website.
 
 You can see the map in action here: https://housetertia.com/fishing-map
 
-Alternatively find the "interactive" fishing map here: https://map.housetertia.com
-And here: https://github.com/dan-el/eso-fishingmap-classic
+Alternatively find the "interactive" fishing map here: https://map.housetertia.com (and here: https://github.com/dan-el/eso-fishingmap-interactive)
 
 #workinprogress
