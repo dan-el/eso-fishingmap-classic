@@ -140,8 +140,8 @@
       </text>
     </a>
     <a xlink:href="jpg/fishing-imperialcity.jpg" xlink:title="Imperial City">
-      <polygon id="imperialcity" class="area dlc" points="430,376,454,373,454,386,457,397,449,400,435,393,435,385,430,380" />
-      <text x="17" y="60" class="dlc" visibility="hidden">Imperial City <tspan x="17" y="90">(DLC & Chapter Zones)</tspan>
+      <polygon id="imperialcity" class="area imperialcity" points="430,376,454,373,454,386,457,397,449,400,435,393,435,385,430,380" />
+      <text x="17" y="60" class="imperialcity" visibility="hidden">Imperial City <tspan x="17" y="90">(Cyrodiil & Neutral Zones)</tspan>
         <set attributeName="visibility" from="hidden" to="visible" begin="imperialcity.mouseover" end="imperialcity.mouseout" />
       </text>
     </a>
@@ -296,11 +296,14 @@
     font: italic 48px sans-serif;
   }
   .map-container polygon.cyrodiil:hover,
-  .map-container circle.cyrodiil:hover {
+  .map-container circle.cyrodiil:hover,
+  .map-container polygon.imperialcity:hover,
+  .map-container circle.imperialcity:hover {
     stroke: green;
     fill: rgba(0,128,0,.5);
   }
-  .map-container text.cyrodiil {
+  .map-container text.cyrodiil,
+  .map-container text.imperialcity {
     fill: green;
     font: italic 48px sans-serif;
   }
