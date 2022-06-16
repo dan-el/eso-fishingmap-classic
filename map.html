@@ -1,5 +1,5 @@
 <div class="map-container">
-  <img id="map-tamriel" class="map-tamriel" src="map-tamriel.png" title="Tamriel Map" alt="Tamriel Map" width="810" height="810" usemap="#map-tamriel" />
+  <img id="map-tamriel" class="map-tamriel" src="map-tamriel-start.jpg" title="Tamriel Map" alt="Tamriel Map" width="810" height="810" usemap="#map-tamriel" />
   <svg class="map-tamriel-svg" width="810" height="810" viewbox="0 0 810 810" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <a xlink:href="jpg/fishing-auridon.jpg" xlink:title="Auridon">
       <polygon id="auridon" class="area ad" points="124,500,149,484,195,510,221,542,219,553,207,564,208,591,198,612,179,609,153,570,164,547,161,535,142,537" />
@@ -227,6 +227,12 @@
       <circle id="deadlands" class="area dlc" cx="479" cy="728" r="70" />
       <text x="17" y="60" class="dlc" visibility="hidden">Deadlands<tspan x="17" y="90">(DLC & Chapter Zones)</tspan>
         <set attributeName="visibility" from="hidden" to="visible" begin="deadlands.mouseover" end="deadlands.mouseout" />
+      </text>
+    </a>
+    <a xlink:href="jpg/fishing-highisleandamenos.jpg" xlink:title="High Isle And Amenos">
+      <polygon id="highisleandamenos" class="area dlc" points="53,454,73,461,76,479,75,497,51,498,36,487,40,468" />
+      <text x="17" y="60" class="dlc" visibility="hidden">High Isle And Amenos<tspan x="17" y="90">(DLC & Chapter Zones)</tspan>
+        <set attributeName="visibility" from="hidden" to="visible" begin="highisleandamenos.mouseover" end="highisleandamenos.mouseout" />
       </text>
     </a>
   </svg>
